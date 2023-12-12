@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  border-radius: 30px;
+  font-family: 'Comic Neue', cursive;
+}
+
+main {
+  max-width: 1020px;
+  margin: auto;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+p:hover,
+.heading:hover,
+.item:hover,
+.job-item:hover,
+.contacts:hover {
+  transform: rotate(-3deg);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: rotate(4deg);
+  transition: transform 0.3s ease;
+}
+
+
+body {
+  background-color: #5F6F52;
+}
+
+.content-wrap {
+  padding: 20%;
+  background-color: #A9B388;
+
+}
+
+.projects {
+  padding: 10%;
+  background-color: #A9B388;
+}
+
+.job-item {
+  margin-bottom: 20px;
+  padding: 5%;
+  background-color: #FEFAE0;
+}
+
+.job-title {
+  font-size: 2em;
+}
+
+.duration {
+  font-family: cursive;
+}
+
+.jobs {
+  padding: 5%;
+  background-color: #A9B388;
+}
+
+.item {
+  font-family: cursive;
+  padding: 5% 10% 5% 10%;
+  margin: 5%;
+
+  background-color: #FEFAE0;
+
+
+}
+
+small {
+  padding: 2px 20px 2px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: stronger;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.job-title {
+  background-color: #B99470;
+  border-radius: 10px;
+  padding: 14px 10px 2px 14px;
+  height: 50px;
+
+
+}
+
+button {
+  background-color: #B99470;
+  border: 2px solid #B99470;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #A9B388;
+}
+
+.contacts {
+  padding: 10%;
+  margin: auto;
+  width: 250px;
+  background-color: #FEFAE0;
+
+}
+.contact-item{
+  padding: 5%;
+  margin: 5%;
+  background-color: #B99470;
+  border-radius: 10px;
+}
+
+a {
+  color: #FEFAE0;
+}
